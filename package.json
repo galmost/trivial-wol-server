@@ -1,0 +1,30 @@
+{
+  "name": "wol-server",
+  "version": "0.1.0",
+  "description": "Simple WOL server",
+  "main": "wol_server.js",
+  "dependencies": {
+    "wol": "^1.0.6",
+    "node-red-node-wol": "^0.0.12",
+    "node-red-node-daemon": "^0.0.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galmost/wol-server.git"
+  },
+  "keywords": [
+    "wol",
+    "js",
+    "wake"
+  ],
+  "author": "“Galmost” <“gologan.alexandru@gmail.com”>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/galmost/wol-server/issues"
+  },
+  "homepage": "https://github.com/galmost/wol-server#readme"
+}
