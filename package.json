@@ -1,5 +1,5 @@
 {
-  "name": "wol-server",
+  "name": "trivial-wol-server",
   "version": "0.1.0",
   "description": "Simple WOL server",
   "main": "trivial_wol_d.js",
