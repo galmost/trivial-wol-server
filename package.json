@@ -8,8 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node trivial_wol_d.js",
-    "test": "node_modules/.bin/mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "start": "node trivial_wol_d.js"
   },
   "repository": {
     "type": "git",
