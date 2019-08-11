@@ -2,7 +2,7 @@
   "name": "wol-server",
   "version": "0.1.0",
   "description": "Simple WOL server",
-  "main": "wol_server.js",
+  "main": "trivial_wol_d.js",
   "dependencies": {
     "wol": "^1.0.6"
   },
@@ -16,7 +16,8 @@
   },
   "keywords": [
     "wol",
-    "wake"
+    "wake",
+    "trivial"
   ],
   "author": "“Galmost” <“gologan.alexandru@gmail.com”>",
   "license": "MIT",
