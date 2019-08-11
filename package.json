@@ -1,6 +1,6 @@
 {
   "name": "trivial-wol-server",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Simple WOL server",
   "main": "trivial_wol_d.js",
   "dependencies": {
