@@ -4,9 +4,7 @@
   "description": "Simple WOL server",
   "main": "wol_server.js",
   "dependencies": {
-    "wol": "^1.0.6",
-    "node-red-node-wol": "^0.0.12",
-    "node-red-node-daemon": "^0.0.23"
+    "wol": "^1.0.6"
   },
   "devDependencies": {},
   "scripts": {
@@ -18,7 +16,6 @@
   },
   "keywords": [
     "wol",
-    "js",
     "wake"
   ],
   "author": "“Galmost” <“gologan.alexandru@gmail.com”>",
