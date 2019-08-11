@@ -24,8 +24,8 @@ var getIpAddress = function() {
 var server_ip = getIpAddress();
 console.log( 'Server available interfaces:' + '\n', server_ip);
 
-// Using wifi1, but this can be changed
-var listening_on = server_ip.wifi1
+// Using eth0, but this can be changed
+var listening_on = server_ip.eth0
 var using_port = 1337
 
 http.createServer(function (req, res) {
