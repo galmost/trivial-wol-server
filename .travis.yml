@@ -4,8 +4,7 @@ node_js:
   - stable
 
 install:
-  - npm install
-  - npm install cover istanbul
+  - npm install cover istanbul mocha
 
 script:
   - npm run cover
