@@ -4,4 +4,4 @@ services:
   app:
     build: .
     ports:
-      - "1337:1337"
+      - "30000:30000"

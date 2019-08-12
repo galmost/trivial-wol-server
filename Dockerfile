@@ -6,4 +6,4 @@ RUN npm install
 COPY . /app
 RUN ls -l
 CMD node trivial_wol_d.js
-EXPOSE 1337
+EXPOSE 30000

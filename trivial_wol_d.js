@@ -30,7 +30,7 @@ console.log( 'Server available interfaces:' + '\n', server_ip);
 // Container variant is essentially allow all traffic to be picked up 
 var listening_on = "0.0.0.0"
 
-var using_port = 1337
+var using_port = 30000
 
 http.createServer(function (req, res) {
 	  res.writeHead(200, {'Content-Type': 'text/plain'});
