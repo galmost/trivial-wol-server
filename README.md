@@ -32,7 +32,8 @@ $ node trivial_wol_server.sj
 #### Just in case...
 Currently, the only dependency is on the wol module.
 If for any reason you are unable to satisfy that dependency via npm:
-https://github.com/song940/wake-on-lan
+
+- https://github.com/song940/wake-on-lan
 
 The brains of the operation :)
 
