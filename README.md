@@ -12,7 +12,7 @@ The desire was to have something small to be used for home automation tasks.
 Basically a good excuse to play around with js and containers.
 
 A better and bulkier option for a wol server can be found at:
-https://github.com/nperez0111/wol-server
+[wol-server](https://github.com/nperez0111/wol-server)
 
 ## Setup
 To run this project, install it locally using npm:
@@ -33,7 +33,7 @@ $ node trivial_wol_server.sj
 Currently, the only dependency is on the wol module.
 If for any reason you are unable to satisfy that dependency via npm:
 
-- https://github.com/song940/wake-on-lan
+- [wake-on-lan](https://github.com/song940/wake-on-lan)
 
 The brains of the operation :)
 
