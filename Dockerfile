@@ -1,4 +1,4 @@
-FROM node
+FROM iron/node
 RUN mkdir -p /app
 WORKDIR /app
 COPY package.json /app

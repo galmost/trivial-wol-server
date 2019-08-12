@@ -24,8 +24,12 @@ var getIpAddress = function() {
 var server_ip = getIpAddress();
 console.log( 'Server available interfaces:' + '\n', server_ip);
 
-// Using eth0, but this can be changed
-var listening_on = server_ip.eth0
+// Using eth0, but this can be changed based on interfaces available
+// var listening_on = server_ip.eth0
+
+// Container variant is essentially allow all traffic to be picked up 
+var listening_on = "0.0.0.0"
+
 var using_port = 1337
 
 http.createServer(function (req, res) {
