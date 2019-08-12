@@ -42,9 +42,6 @@ The brains of the operation :)
 A prebaked container can be found [here](https://hub.docker.com/r/galmostdocker/trivial-wol-server)
 
 - From source:
-```
-$ cd trivial-wol-server
-```
 using docker commands
 ```
 $ docker build . -t trivial-wol-server
@@ -52,7 +49,6 @@ $ docker run -p 30000:30000 trivial-wol-server
 ```
 or docker-compose
 ```
-$ cd trivial-wol-server
 $ docker-compose up
 ```
 
