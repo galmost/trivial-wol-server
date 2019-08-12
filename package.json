@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "mocha --reporter spec",
-    "start": "node trivial_wol_d.js"
+    "start": "node trivial_wol_d.js",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*" 
   },
   "repository": {
     "type": "git",
