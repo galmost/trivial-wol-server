@@ -1,4 +1,5 @@
 # trivial-wol-server
+[![Build Status](https://travis-ci.org/galmost/trivial-wol-server.svg?branch=master)](https://travis-ci.org/galmost/trivial-wol-server)
 Simple Wake on Lan service
 ## Table of contents
 * [General info](#general-info)
