@@ -8,8 +8,12 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha --reporter spec",
     "start": "node trivial_wol_d.js",
+    "test-init": "node_modules/jasmine/bin/jasmine.js init",
+    "test": "node_modules/jasmine/bin/jasmine.js"
+  },
+  "scriptComments": {
+    "test": "mocha --reporter spec",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*" 
   },
   "repository": {
@@ -21,10 +25,10 @@
     "wake",
     "trivial"
   ],
-  "author": "“Galmost” <“gologan.alexandru@gmail.com”>",
+  "author": "“Galmost” <“galmost@protonmail.com”>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/galmost/wol-server/issues"
+    "url": "https://github.com/galmost/trivial-wol-server/issues"
   },
-  "homepage": "https://github.com/galmost/wol-server#readme"
+  "homepage": "https://github.com/galmost/trivial-wol-server#readme"
 }

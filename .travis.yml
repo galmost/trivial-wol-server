@@ -4,7 +4,9 @@ node_js:
   - stable
 
 install:
-  - npm install cover istanbul mocha
+ #- npm install cover istanbul mocha
+  - npm install jasmine
 
 script:
-  - npm run cover
+ #- npm run cover
+  - npm run test-init
