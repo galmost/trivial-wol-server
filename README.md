@@ -2,8 +2,8 @@
 Simple Wake on Lan service
 ## Table of contents
 * [General info](#general-info)
-* [Commands](#commands)
 * [Setup](#setup)
+* [Commands](#commands)
 * [Docker](#docker)
 
 ## General info
@@ -37,6 +37,16 @@ If for any reason you are unable to satisfy that dependency via npm:
 
 The brains of the operation :)
 
+## Commands
+- To check service is up:
+```
+http:\\127.0.0.1:30000\
+```
+- To issue a wake on lan call:
+```
+http:\\127.0.0.1:30000\?mac=4A:E5:52:91:84:07
+```
+
 ## Docker
 - From dockerhub:
 
@@ -53,12 +63,3 @@ or docker-compose
 $ docker-compose up
 ```
 
-## Commands
-- To check service is up and get a snappy comment:
-```
-http:\\127.0.0.1:30000\
-```
-- To issue a wake on lan call:
-```
-http:\\127.0.0.1:30000\?mac=4A:E5:52:91:84:07
-```
