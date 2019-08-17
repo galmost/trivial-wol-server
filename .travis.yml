@@ -5,7 +5,7 @@ node_js:
 
 install:
  #- npm install cover istanbul mocha
-  - npm install jasmine
+  - npm install jasmine request
 
 script:
  #- npm run cover
