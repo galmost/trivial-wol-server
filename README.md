@@ -26,7 +26,7 @@ $ npm start
 ```
 or
 ```
-$ node trivial_wol_server.sj
+$ node trivial_wol_server.js
 ```
 
 #### Just in case...
