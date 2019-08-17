@@ -35,7 +35,7 @@ console.log( 'Server available interfaces:' + '\n', server_ip);
 var listening_on = "0.0.0.0"
 var using_port = 30000
 
-http.createServer(function (req, res) {
+var daemon = http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   var query = url.parse(req.url, true).query;
   var mac = query.mac;
@@ -50,10 +50,18 @@ http.createServer(function (req, res) {
   else { res.write('What can i help you with, sir?') }
   res.end();
 
-}).listen(using_port, listening_on);
+})
+
+daemon.listen(using_port, listening_on);
+
+//module.exports = daemon
+
+const Service = {
+	stop: function () { 
+		daemon.close()
+		console.log('Server shutdown initiated...')
+	}
+}
+module.exports = Service
 
 console.log('Server running at http://' + listening_on +':' + using_port + '/');
-
-
-
-
