@@ -9,11 +9,11 @@
   "devDependencies": {},
   "scripts": {
     "start": "node trivial_wol_d.js",
+    "test-init": "node_modules/jasmine/bin/jasmine.js init",
     "test": "node_modules/jasmine/bin/jasmine.js"
   },
   "scriptComments": {
-    "test-init": "node_modules/jasmine/bin/jasmine.js init",
-    "test-unit": "mocha --reporter spec",
+    "test": "mocha --reporter spec",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*" 
   },
   "repository": {

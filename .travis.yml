@@ -9,4 +9,4 @@ install:
 
 script:
  #- npm run cover
-  - npm run test-init
+  - npm run test
